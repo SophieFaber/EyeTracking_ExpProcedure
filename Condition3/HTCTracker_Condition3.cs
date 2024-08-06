@@ -39,7 +39,7 @@ public class HTCTracker_Condition3 : MonoBehaviour
         visualTransform = visualObject.transform;
         visualTransform.SetParent(transform);
         visualTransform.localPosition = Vector3.zero;
-        visualTransform.localRotation = Quarternion.identity;
+        visualTransform.localRotation = Quaternion.identity;
         visualTransform.localScale = Vector3.one;
 
 
